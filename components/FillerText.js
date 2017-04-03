@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class FillerText extends React.Component {
+export default class FillerText extends React.Component {
   render() {
     return (
       <p>
@@ -9,5 +9,3 @@ class FillerText extends React.Component {
     );
   }
 }
-
-module.exports = FillerText;
